@@ -1,0 +1,442 @@
+* {
+    margin: 0;
+    padding: 3px;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'open sans';
+    font-size: 16px;
+    background-image: url(https://img.freepik.com/fotos-premium/resumen-fondo-diseno-imagenes-fondos-pantalla-ai-generado_643360-94640.jpg);
+}
+
+header {
+    width: 100%;
+    height: 650px;
+    background-image: url(https://static.vecteezy.com/system/resources/thumbnails/016/623/673/small/modern-background-with-blue-gradient-free-vector.jpg);
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    overflow: hidden;
+    color: #f7faff;
+    text-align: center;
+}
+
+.logocr{
+    margin: -100px 0px 0px 0px;
+    width: 350px;
+}
+
+header .textos {
+    margin-top: 152px;
+}
+
+header .titulo {
+    font-size: 80px;
+    color:black;
+}
+
+header .subtitulo {
+    font-size: 20px;
+    font-weight: 300;
+    margin-bottom: 32px;
+    color:black;
+}
+
+header .boton {
+    display: inline-block;
+    padding: 6px;
+    width: 128px;
+    border: 1px solid #fff;
+    color: #fff;
+    font-size: 19px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 16px;
+}
+
+.sesgoabajo {
+    z-index: 10;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    border-width: 0 0 35vh 100vw;
+    border-style: solid;
+    border-color: transparent transparent #ecf0f1 transparent;
+    
+}
+
+.sesgoarriba {
+    z-index: 10;
+    position: absolute;
+    top: 0;
+    left: 0;
+    border-width: 35vh 100vw 0 0;
+    border-style: solid;
+    border-color: #ecf0f1 transparent transparent transparent;
+}
+
+.contenedor {
+    width: 90%;
+    max-width: 1000px;
+    margin: auto;
+    overflow: hidden;
+    padding: 52px 0;
+    background-image:url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ3Vz44KgmKBoew2h0vcnaQ8Ks6AxNUaZxQX5LEwxIwsYM4UhQADD8MjTB7ccLzC4JP14c&usqp=CAU) ;
+    border-color: transparent transparent #ecf0f1 transparent;
+
+}
+
+.contenedor1 {
+    width: 90%;
+    max-width: 1000px;
+    margin: auto;
+    overflow: hidden;
+    padding: 12px 0;
+    display: flex;
+}
+
+.letra{
+    color:black;
+    font-size: 20px;
+    text-align: justify;
+}
+
+.vision{
+    width: 100px;
+    height: 38px;
+    background: #e0fffc;
+    text-align: center;
+    border-radius: 10px;
+    font-size: 30px;
+}
+
+.mision{
+    width: 100px;
+    height: 38px;
+    background: #f8fdfd;
+    text-align: center;
+    border-radius: 10px;
+    font-size: 30px;
+}
+.sobre-nosotros {
+    font-size: 30px;
+    line-height: 40px;
+    color: black;
+    text-transform: uppercase;
+    padding: 0 250px;
+    margin-bottom: 15px;
+    background: #04d4d496;
+    padding: 40px;
+    box-sizing: border-box;
+    font-family: "Dancing Script", cursive;
+    border-radius: 20px;
+    }
+
+.slogan {
+    font-size: 24px;
+    font-weight: 300;
+    text-align: center;
+    margin-bottom: 24px;
+}
+
+.parrafo {
+    margin-bottom: 13px;
+    font-weight: 300;
+    text-align: justify;
+    line-height: 24px;
+    color: rgb(24, 16, 16);
+    font-size: 20px;
+}
+
+.acerca-de .boton {
+    display: inline-block;
+    padding: 6px;
+    width: 128px;
+    font-weight: 300;
+    border: 1px solid rgba(24, 16, 16, .7);
+    color: rgb(24, 16, 16);
+    font-size: 16px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 16px;
+    margin-top: 24px;
+}
+
+.galeria {
+    width: 100%;
+    height: 500px;
+    overflow: hidden;
+    display: flex;
+    position: relative;
+    flex-wrap: wrap;
+}
+
+.imagenes {
+    width: 20%;
+    height: 500px;
+    overflow: hidden;
+    position: relative;
+}
+
+.imagenes img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.encima {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(52, 73, 94, 0.815);
+}
+
+.encima h2 {
+    position: relative;
+    top: 45%;
+    text-align: center;
+    color: #fff;
+}
+
+.encima div {
+    position: relative;
+    display: block;
+    top: 46%;
+    width: 40px;
+    height: 5px;
+    background: #fff;
+    margin: auto;
+}
+
+.cards {
+    width: 100%;
+    margin: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.card {
+    margin: 40px 0;
+    width: 49%;
+    height: 425px;
+    text-align: center;
+    padding: 20px;
+    box-shadow: 0px 0px 4px 0 rgba(52, 73, 94, 0.849);
+    background-color: #75faff;
+    border-radius: 20px;
+    box-shadow: 5px 5px 5px 5px #1abc9c;
+}
+
+.cards img {
+    width: 140px;
+    height: 140px;
+    object-fit: cover;
+    border-radius: 100%;
+}
+
+p {
+    font-size: 18px;
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    text-align: justify;
+}
+
+.fondo {
+    height: 900px;
+    position: relative;
+    background-image: url(https://plus.unsplash.com/premium_photo-1701590725721-add548ecdf61?fm=jpg&q=60&w=3000&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1yZWxhdGVkfDEyfHx8ZW58MHx8fHx8);
+    overflow: hidden;
+    background-attachment: fixed;
+    background-position: center;
+    padding-top: 130px;
+}
+
+.sesgoabajo-unico {
+    z-index: 10;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    border-width: 0 0 35vh 100vw;
+    border-style: solid;
+    border-color: transparent transparent white transparent;
+}
+
+.titulo-patrocinadores,
+.subtitulo-patrocinadores {
+    color: black;
+    text-align: center;
+}
+
+.titulo-patrocinadores {
+    font-size: 56px;
+    margin-top: 48px;
+}
+
+.subtitulo-patrocinadores {
+    font-size: 24px;
+    font-weight: 300;
+    margin-bottom: 20px;
+}
+.clientes {
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 64px;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.cliente {
+    width: 30%;
+}
+
+.cliente img{
+    width: 100%;
+}
+
+.imagenme{
+    margin: -5px 38px 23px 10px;
+    width: 400px;
+    height: 400px;
+
+}
+
+.Conclusion{
+    text-align: center;
+    font-size: 53px;
+    margin-bottom: 10px;
+    font-weight: 600;
+    
+}
+
+.parrafo1{
+    text-align: justify;
+    font-size: 20px;
+    margin-bottom: 10px;
+    font-weight: 50;
+}
+input[type="submit"] {
+    display: inline-block;
+    padding: 13px;
+    border: none;
+    color: #fff;
+    background: rgba(37, 37, 33, .7);
+    width: 96px;
+}
+footer {
+    background: #e9c5ff;
+    height: auto;
+}
+
+
+
+@media screen and (max-width:900px) {
+    .card {
+        width: auto;
+        background-color: #75faff;
+        border-radius: 20px;
+    }
+}
+
+@media screen and (max-width:610px) {
+    header .textos {
+        margin-top: 130px;
+    }
+
+    header .titulo {
+        font-size: 50px;
+    }
+
+    .none {
+        display: none
+    }
+
+    .imagenes {
+        flex-grow: 1;
+    }
+
+    .card {
+        width: auto;
+        height: auto;
+        margin: 20px;
+        background-color: #75faff;
+        border-radius: 20px;
+    }
+
+    .fondo {
+        height: auto;
+    }
+    .especial {
+        display: none;
+    }
+    .cliente {
+        width: 90%;
+        height: 200px;
+        margin-bottom: 50px;
+    }
+    .header {
+        display: block;
+        width: 100px;
+        height: 100px;
+    }
+}
+
+.footer {
+    padding: 100px 0;
+    background-color: #000000;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-between;
+}
+
+link h3 {
+    font-size: 18px;
+    color: #f9fafc;
+    margin-bottom: 15px;
+}
+
+.link a {
+    font-size: 16px;
+    color: #c5c5c5;
+    display: block;
+    margin-bottom: 15px;
+}
+
+
+@media screen and (max-width:380px) {
+    header .textos {
+        margin-top: 100px;
+    }
+
+    
+
+    header .subtitulo {
+        font-size: 25px;
+        margin-bottom: 32px;
+    }
+
+    .sobre-nosotros {
+        font-size: 46px;
+    }
+
+    .slogan {
+        font-size: 20px;
+    }
+
+    .titulo-patrocinadores {
+        font-size: 46px;
+    }
+
+    .subtitulo-patrocinadores {
+        font-size: 20px;
+    }
+}
